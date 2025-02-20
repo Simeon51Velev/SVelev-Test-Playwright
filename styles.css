@@ -33,6 +33,22 @@ main .description p {
   width: 500px;
 }
 
+main table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+main table th {
+  background-color: crimson;
+  font-style: bold;
+  color: #fff;
+}
+
+main table td {
+  background-color: black;
+  color: #fff;
+}
+
 footer {
   text-align: center;
   background-color: #333;

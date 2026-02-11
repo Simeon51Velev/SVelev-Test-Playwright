@@ -5,7 +5,7 @@ pipeline {
         // 1️⃣ Checkout на кода от GitHub
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/Simeon51Velev/SVelev-Test-Playwright.git'
+                git branch: 'master', url: 'https://github.com/Simeon51Velev/SVelev-Test-Playwright.git'
             }
         }
 
